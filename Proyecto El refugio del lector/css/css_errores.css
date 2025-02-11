@@ -1,0 +1,29 @@
+/* Estilo para los mensajes de error */
+.error-messages {
+    background-color: #f8d7da;  /* Fondo rojo suave */
+    color: #721c24;  /* Texto rojo oscuro */
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #f5c6cb;  /* Borde más claro */
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+  }
+  
+  .error-messages ul {
+    list-style: none;  /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .error-messages li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los elementos de la lista (errores individuales) */
+  .error-messages li::before {
+    content: "⚠️";  /* Añadir un ícono de advertencia antes de cada error */
+    margin-right: 10px;
+  }
+  
